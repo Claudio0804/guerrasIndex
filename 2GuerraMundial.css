@@ -1,0 +1,43 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.texto{
+    font-size: 25px;
+    padding-left: 40px;
+    margin-right: 100px;
+    margin-top: 20px;
+    max-width: 1600px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img#foto1{
+    width: 450px;
+    height: 450px;
+    margin-left: 130px;
+}
+img#foto2{
+    width: 450px;
+    height: 450px;
+    margin-left: 50px;
+}
+#container1{
+    margin-top: 30px;
+    display: flex;
+}
+p{
+    margin-top: 30px;
+}
+img#foto3{
+    margin-top: 25px;
+    width: 550px;
+    margin-left: 350px;
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+ul{
+    margin-left: 100px;
+    margin-top: 40px;
+}

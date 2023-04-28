@@ -1,0 +1,58 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.texto{
+    font-size: 25px;
+    padding-left: 40px;
+    margin-right: 100px;
+    margin-top: 50px;
+    max-width: 1600px;
+}
+img#foto1{
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+img#foto2{
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 445px;
+}
+img#foto3{
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 410px;
+}
+#tabela{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+}
+.celula {
+    background-color: #ddd;
+    padding: 10px;
+    border: 1px solid #aaa;
+  }
+  .tabela {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 50px;
+  }
+
+  .celula {
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+  .entente {
+    background-color: lightblue;
+  }
+
+  .alianca {
+    background-color: lightcoral;
+  }
